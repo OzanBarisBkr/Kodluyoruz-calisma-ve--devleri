@@ -1,1 +1,4 @@
-# Kodluyoruz-calisma-ve--devleri
+# Kodluyoruz FrontEnd Challenge Ödevleri bulunmaktadır
+---
+Html-Giriş ödevi eklendi.
+---
