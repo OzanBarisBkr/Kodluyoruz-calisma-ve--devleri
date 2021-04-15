@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TepeBlue | Anasayfa</title>
+    <style>
+        /* GENERAL-start */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1000px;
+            margin: 0 auto;
+            background-color: rgb(241, 241, 241);
+            box-shadow: 0px 0px 12px rgba(212, 212, 212);
+        }
+        /* GENERAL-end */
+        /* Nav-start */
+        header{
+            height: 100px;
+            background-color: rgb(121, 53, 70);
+        }
+        header h1{
+            font-size: 26px;
+            color: rgb(157, 234, 252);
+            padding: 30px;
+            font-weight: 400;
+        }
+        header h1 label{
+            color: rgb(238, 252, 255);
+            font-size: 30px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        header nav ul{
+            position: relative;
+            float: right;
+            list-style: none;
+            top: -60px;
+            right: 40px;
+        }
+        header nav ul li{
+            display: inline-block;
+            padding: 0px 40px;
+        }
+        header nav ul li a{
+            text-decoration: none;
+            color: rgb(186, 233, 252);
+            font-size: 17px;
+            transition: 0.5s;
+        }
+        header nav ul li a:hover{
+            color: rgb(255, 255, 255);
+        }
+        /* Nav-end */
+        /* section-start */
+        section{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px 20px;
+        }
+        section h2{
+            text-align: center;
+            color: tomato;
+            margin: 20px;
+        }
+        section p{
+            letter-spacing:0.7px;
+        }
+        section p::before{
+            content: ' ';
+            padding-left: 20px;
+
+        }
+        section img{
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(180, 180, 180);
+            text-align: center;
+            margin: 30px 180px;
+        }
+        section ol{
+            padding: 20px;
+        }
+        /*Section-end */
+        /*footer-start*/
+        footer{
+            margin-top: 50px;
+            height: 100px;
+            background-color: rgb(66, 66, 66);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer ul{
+            list-style: none;
+        }
+        footer ul + ul{
+            margin-left: -250px;
+        }
+        footer ul li a{
+            color: white;
+        }
+        footer nav ul li a{
+            text-decoration: none;
+            color: rgb(186, 233, 252);
+            font-size: 17px;
+            transition: 0.5s;
+        }
+        footer nav ul li a:hover{
+            color: rgb(255, 255, 255);
+        }
+        /* footer-end */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--header-nav-start-->
+            <header>
+                <h1><label>Tepe</label>Blue</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <!--header-nav-end-->
+        <!--section-start-->
+        <section>
+            <h2>Excepteur sint occaecat</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nisi accusantium laboriosam autem qui corporis provident! 
+            Earum omnis, tempora sed explicabo officiis consequatur quibusdam. Minima quia atque commodi voluptates in?</p>
+            <!--article-start-->
+            <article>
+                <img src="https://picsum.photos/id/300/600/300" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eveniet obcaecati velit deserunt enim molestiae dolores quod, eligendi neque esse non dicta hic culpa reprehenderit, 
+                    vel delectus impedit, dolorum iusto nam possimus. <br><br>
+                    Dolorum, molestiae ullam laboriosam exercitationem enim corporis alias optio temporibus quo ut nemo delectus laudantium cumque id quibusdam aut fugiat, 
+                    quas possimus tempore a facilis rem reiciendis quod? Harum debitis perferendis veritatis cumque dolorum temporibus maiores molestias et tenetur, autem, 
+                    consequatur quibusdam optio ad non, culpa omnis voluptatem voluptatibus animi numquam doloremque facere. Vitae repudiandae voluptatem, 
+                    iste aperiam illo reiciendis dicta cumque earum quidem eveniet, in saepe deleniti omnis.</p>
+                <ol>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Nulla soluta at rem.</li>
+                    <li>Alias commodi laudantium corrupti.</li>
+                    <li>Vitae temporibus beatae dolorem.</li>
+                    <li>Repellendus accusantium ullam laborum?</li>
+                </ol>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur fugiat quo sapiente eligendi provident nostrum porro error, 
+                    et nemo animi, qui placeat nulla quaerat veniam, optio esse alias vero nesciunt amet. Expedita ex dignissimos optio accusantium. 
+                    Molestiae delectus at vel fugiat optio, eaque quis repellat sit ullam necessitatibus. Neque nisi distinctio unde totam eligendi explicabo maiores alias, 
+                    porro tempore inventore possimus id repellendus aliquam nostrum, omnis impedit commodi ab dolor.</p>
+            </article>        
+        </section>            
+            <!--article-end-->
+        <!--section-end-->
+        <!--footer-start-->
+        <footer>
+            <ul>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">At, dicta temporibus?</a></li>
+                <li><a href="#">Dolorem, quam error!</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">At, dicta temporibus?</a></li>
+                <li><a href="#">Dolorem, quam error!</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <!--footer-end-->
+    </div>    
+</body>
+</html>

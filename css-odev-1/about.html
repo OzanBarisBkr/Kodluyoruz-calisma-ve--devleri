@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TepeBlue | Hakkımızda</title>
+    <style>
+        /* GENERAL-start */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1000px;
+            margin: 0 auto;
+            background-color: rgb(241, 241, 241);
+            box-shadow: 0px 0px 12px rgba(212, 212, 212);
+        }
+        /* GENERAL-end */
+        /* Nav-start */
+        header{
+            height: 100px;
+            background-color: rgb(121, 53, 70);
+        }
+        header h1{
+            font-size: 26px;
+            color: rgb(157, 234, 252);
+            padding: 30px;
+            font-weight: 400;
+        }
+        header h1 label{
+            color: rgb(238, 252, 255);
+            font-size: 30px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        header nav ul{
+            position: relative;
+            float: right;
+            list-style: none;
+            top: -60px;
+            right: 40px;
+        }
+        header nav ul li{
+            display: inline-block;
+            padding: 0px 40px;
+        }
+        header nav ul li a{
+            text-decoration: none;
+            color: rgb(186, 233, 252);
+            font-size: 17px;
+            transition: 0.5s;
+        }
+        header nav ul li a:hover{
+            color: rgb(255, 255, 255);
+        }
+        /* Nav-end */
+        /*section-start */
+        section{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px 20px;
+        }
+        section h2{
+            text-align: center;
+            color:purple;
+            margin: 20px;
+        }
+        section p{
+            letter-spacing:0.7px;
+        }
+        section p::before{
+            content: ' ';
+            padding-left: 20px;
+
+        }
+        section .resim img{
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(180, 180, 180);
+            text-align: center;
+            margin: 30px 180px;
+        }
+        section .resim-yazi{
+            width: 800px;
+            margin: 50px auto;
+        }
+        section .resim-yazi img{
+            border: none;
+            margin-right: 50px;
+            display: block;
+            float: left;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgb(138, 138, 138);
+        }
+        section .resim-yazi p{
+            margin-top: 80px;
+            line-height: 30px;
+        }
+        section ol{
+            padding: 20px;
+        }
+        .temizle{
+            clear: both;
+        }
+        /*Section-end */
+        /*footer-start*/
+        footer{
+            margin-top: 50px;
+            height: 100px;
+            background-color: rgb(66, 66, 66);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer ul{
+            list-style: none;
+        }
+        footer ul + ul{
+            margin-left: -250px;
+        }
+        footer ul li a{
+            color: white;
+        }
+        footer nav ul li a{
+            text-decoration: none;
+            color: rgb(186, 233, 252);
+            font-size: 17px;
+            transition: 0.5s;
+        }
+        footer nav ul li a:hover{
+            color: rgb(255, 255, 255);
+        }
+        /*-footer-end  */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--header-nav-start-->
+        <header>
+            <h1><label>Tepe</label>Blue</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--header-nav-end-->
+        <!--Section-Start-->
+        <section>
+            <!--Article-Start-->
+            <article>
+                <h2>At vero eos et</h2>
+                <div class="resim"><img src="https://picsum.photos/id/87/600/300" alt=""></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem id, quis nemo aspernatur voluptatem nesciunt assumenda labore ex nihil dignissimos unde quae adipisci pariatur asperiores esse incidunt impedit consequuntur praesentium deleniti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis dignissimos facere dicta quos cupiditate hic, eaque ipsam autem, rerum dolore corrupti voluptate animi ea! Minus tempore saepe natus mollitia molestiae iusto molestias beatae laudantium cum facilis! Vel, ipsa obcaecati? Doloribus, possimus neque.</p>
+                <div class="resim-yazi"><img src="https://picsum.photos/id/402/300/300" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et delectus libero sed earum exercitationem maiores quia aliquam eius omnis, quos animi vitae voluptate maxime voluptatum, minus consectetur doloribus aperiam?</p>
+                </div>
+            </article>
+            <!--Article-End-->
+            <div class="temizle"></div>
+        </section>    
+        <!--Section-End-->
+        <!--footer-Start-->
+        <footer>
+            <ul>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">At, dicta temporibus?</a></li>
+                <li><a href="#">Dolorem, quam error!</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+                <li><a href="#">At, dicta temporibus?</a></li>
+                <li><a href="#">Dolorem, quam error!</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <!--footer-End-->
+    </div>    
+</body>
+</html>
