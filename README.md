@@ -8,3 +8,4 @@ Html-Final ödevi olan "google projesi" eklendi.
 ---
 Css Odev-1 eklendi.
 ---
+Css Odev-2 Google clone eklendi
