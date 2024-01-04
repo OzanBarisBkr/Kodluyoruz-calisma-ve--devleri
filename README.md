@@ -12,3 +12,11 @@ Css Odev-2 Google clone eklendi
 ---
 Bootstrap Odev-1 Eklendi
 ---
+Bootstrap Odev-2 Eklendi
+---
+Bootstrap Odev-3 Eklendi
+---
+Js odev-1 Eklendi
+---
+Js Odev-2 Eklendi
+---
